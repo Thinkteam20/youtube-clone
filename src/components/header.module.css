@@ -1,0 +1,29 @@
+.header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: centere;
+}
+span{
+    color: red;
+}
+.icon{
+    color: red;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.name{
+    color: white;
+    font-size: 40px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20%;
+}
+
+.searchbar{
+    flex-basis: 80%;
+}
