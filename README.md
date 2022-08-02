@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Youtube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Youtube Clone using React.js </br></br>
+Landing page shows a popular videos and has a Search bar.</br>
+User can Search keyword and it returns the relevant video based on the keyword typed by User.
 
-## Available Scripts
+<details open="open">
+  <summary>Summary</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#screen-shots">Screen Shots</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#what-i-learned">What I Learned</a></li>
+  </ol>
+</details>
+</br>
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Enhence React skill
 
-### `yarn test`
+## Skills
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React JS
+- HTML / CSS
+- Youtube API 
 
-### `yarn build`
+## Screen Shots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- - Desktop</br>
+  <img src="screen-shots/desktop.png" width="600">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Mobile</br>
+  <img src="screen-shots/mobile.png" width="300"> -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ## Functions
 
-### `yarn eject`
+- Popular List (Main page)
+- Search List
+- Play video -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Reference 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Youtube Data Api](https://developers.google.com/youtube/v3/getting-started?hl=ko)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## What I Learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### - Youtube api - videos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### - Fetch in a loop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
