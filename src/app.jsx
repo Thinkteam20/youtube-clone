@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const API_KEY = "AIzaSyAKpZ71aenK6nuDcMIu07KIm4Y9CQ5FCD4";
 
 function App() {
-    const [search, setSearch] = useState("");
+    const [search, setSearch] = useState(null);
     const [videos, setVideos] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -27,9 +27,30 @@ function App() {
             setLoading(false);
             return data;
         };
-        getYoutubeAsync().then((data) => {
-            console.log(data);
-        });
+        const getYoutubeHotAsync = async () => {
+            const response = await fetch(
+                "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=AIzaSyAKpZ71aenK6nuDcMIu07KIm4Y9CQ5FCD4",
+                {
+                    method: "GET",
+                    headers: { "Content-Type": "application/json" },
+                }
+            );
+            const data = await response.json();
+            setVideos(data.items);
+            setLoading(false);
+            return data;
+        };
+
+        if (search) {
+            getYoutubeAsync().then((data) =>
+                console.log(`search result = ${data}`)
+            );
+        } else {
+            getYoutubeHotAsync().then((data) => {
+                console.log(`hot video result = ${data}`);
+                console.log(data);
+            });
+        }
     }, [search]);
 
     const onSearch = (detail) => {
